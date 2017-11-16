@@ -91,7 +91,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 123
+  controlID: 119
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -316,9 +316,9 @@ MonoBehaviour:
     height: 700
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c4250000
-    m_LastClickedID: 9668
-    m_ExpandedIDs: d6fbffff00000000cc250000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 08fcffff0000000084260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -367,7 +367,7 @@ MonoBehaviour:
     y: 104
     width: 336
     height: 700
-  m_ScrollPosition: {x: 0, y: 1.9550781}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: -160
@@ -406,6 +406,7 @@ MonoBehaviour:
     m_AssetLabels: []
     m_AssetBundleNames: []
     m_VersionControlStates: []
+    m_SoftLockControlStates: []
     m_ReferencingInstanceIDs: 
     m_ScenePaths: []
     m_ShowAllHits: 0
@@ -417,13 +418,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\dongj\Desktop\StarHolic
+  m_LastProjectPath: C:\Users\duty7\Desktop\StarHolic
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6a250000
-    m_LastClickedID: 9578
-    m_ExpandedIDs: 000000006a250000ffffff7f
+    m_SelectedIDs: 40260000
+    m_LastClickedID: 9792
+    m_ExpandedIDs: 000000004026000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -451,7 +452,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006a250000
+    m_ExpandedIDs: 0000000040260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
