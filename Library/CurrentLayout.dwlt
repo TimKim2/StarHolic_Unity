@@ -14,13 +14,13 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 69
-    y: 45
+    y: 51
     width: 1320
     height: 771
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 492}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1320
     height: 771
-  m_MinSize: {x: 950, y: 492}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -311,14 +311,14 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 570
-    y: 94
+    y: 100
     width: 200
     height: 700
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: d8fbffff00000000
+    m_SelectedIDs: 00fbffff
+    m_LastClickedID: -1280
+    m_ExpandedIDs: d0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -364,7 +364,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1053
-    y: 94
+    y: 100
     width: 336
     height: 700
   m_ScrollPosition: {x: 0, y: 0}
@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 774
-    y: 94
+    y: 100
     width: 275
     height: 700
   m_SearchFilter:
@@ -417,13 +417,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/kim/StarHolic_Unity/StarHolic
+  m_LastProjectPath: "C:\\Users\\dongj\\Desktop\\\uC0C8 \uD3F4\uB354 (2)"
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e2240000
-    m_LastClickedID: 9442
-    m_ExpandedIDs: 00000000e224000000ca9a3bffffff7f
+    m_SelectedIDs: 58250000
+    m_LastClickedID: 9560
+    m_ExpandedIDs: 0000000058250000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -451,7 +451,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e2240000
+    m_ExpandedIDs: 0000000058250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -529,7 +529,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 69
-    y: 515
+    y: 521
     width: 497
     height: 279
   m_MaximizeOnPlay: 0
@@ -540,10 +540,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -116.44444
-    m_HBaseRangeMax: 116.44444
-    m_VBaseRangeMin: -65.5
-    m_VBaseRangeMax: 65.5
+    m_HBaseRangeMin: -232.88889
+    m_HBaseRangeMax: 232.88889
+    m_VBaseRangeMin: -131
+    m_VBaseRangeMax: 131
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -562,7 +562,7 @@ MonoBehaviour:
       y: 17
       width: 497
       height: 262
-    m_Scale: {x: 2, y: 2}
+    m_Scale: {x: 1, y: 1}
     m_Translation: {x: 248.5, y: 131}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -570,15 +570,15 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -124.25
-      y: -65.5
-      width: 248.5
-      height: 131
+      x: -248.5
+      y: -131
+      width: 497
+      height: 262
     m_MinimalGUI: 1
-  m_defaultScale: 2
+  m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 994, y: 558}
+  m_LastWindowPixelSize: {x: 497, y: 279}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 69
-    y: 94
+    y: 100
     width: 497
     height: 400
   m_SceneLighting: 1
