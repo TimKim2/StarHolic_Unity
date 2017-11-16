@@ -407,7 +407,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB3D9\uC7AC\uBC14\uBCF4\n"
+  m_Text: "\uCEF9\uC2A4 \u3147\u3141\u3147\u3141\u3147\u3141\u3141\u3147\n"
 --- !u!222 &1181140277
 CanvasRenderer:
   m_ObjectHideFlags: 0
