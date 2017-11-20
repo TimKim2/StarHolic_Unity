@@ -23,4 +23,16 @@ public class PlayerMove : MonoBehaviour {
 		this.rb.MovePosition (transform.position + Time.fixedDeltaTime * moveSpeed * vector); 
 
 	}
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Enemy")
+        {
+            Destroy(col.gameObject);
+            Destroy(this.gameObject);
+            ScoreManager.Instance.SetHighScore();
+            ChangeSceneManager.instance.ChangeToGameOverScene();
+
+        }
+        
+    }
 }

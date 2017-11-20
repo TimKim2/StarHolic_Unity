@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 303f79d22d1440749913d0e0334e2b8b
+timeCreated: 1510850185
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Futurist Fixed-width
+  fontNames:
+  - Futurist Fixed-width
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
