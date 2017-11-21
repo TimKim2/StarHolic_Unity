@@ -7,11 +7,23 @@ public class TouchPanel : MonoBehaviour, IPointerUpHandler, IPointerDownHandler{
 
 	bool currentState = false;
 
+	public Vector3 deltaMousePos;
 	public PlayerMove player;
 
 	Vector3 beforeMousePos;
 	Vector3 currentMousePos;
 
+	private static TouchPanel m_Instance;
+	public static TouchPanel Instance
+	{
+		get{
+			if (!m_Instance) {
+				m_Instance = FindObjectOfType (typeof(TouchPanel)) as TouchPanel;
+			}
+
+			return m_Instance;
+		}
+	}
 	void Start(){
 		player = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerMove>();
 	}
@@ -37,7 +49,7 @@ public class TouchPanel : MonoBehaviour, IPointerUpHandler, IPointerDownHandler{
 			currentMousePos = Input.mousePosition;
 
 			if (beforeMousePos != currentMousePos) {
-				Vector3 deltaMousePos = currentMousePos - beforeMousePos;
+				deltaMousePos = currentMousePos - beforeMousePos;
 				/*여기서 워프 잡으려면 IScrollHandler parent make.
 				 OnScroll(PointerEventData eventData){
 				 	currentState = true; 로 교체 
